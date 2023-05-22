@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Contacto - JP Solutions</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+    <link rel="icon" href="flash_lightning_ray_icon_231454.ico">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="Contador.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <h1>¡CONTACTENOS!</h1>
+      <nav>
+        <ul>
+          <li><a href="Contador.html">Inicio</a></li>
+          <li><a href="about.html">Acerca</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    
+    <main>
+
+      <div class="caja-form">
+        <img class="contact-icon" src="https://u-static.fotor.com/images/text-to-image/result/PRO-07f1213af96c4c6e9cf63d6d5a063f0a.jpg" alt="Chica Anime">
+        
+        <div class="contact-form">
+
+          <form>
+            <label for="nombrecompleto">Ingrese su nombre: </label>
+            <input type="text" class="input-generico" required placeholder="Escribe tu nombre" id="nombrecompleto">
+            
+            <label for="email">Correo Electrónico: </label>
+            <input type="email" class="input-generico" required placeholder="email@dominio.com" id="email">
+
+            <label for="telefono">Número de Teléfono: </label>
+            <input type="tel" class="input-generico" required placeholder="(XX) XXXX-XXXX" id="telefono">
+
+            <label for="mensaje">Escriba su mensaje</label>
+            <textarea cols="70" rows="10" id="mensaje" class="input-generico" required></textarea>
+
+            <fieldset>
+              <legend>¿Cómo le gustaría ser contactado?</legend>
+              <label for="radio-email">
+                <input type="radio" name="contacto" value="email" id="radio-email">
+                "Correo Electrónico"
+              </label>
+
+              <label for="radio-telefono">
+                <input type="radio" name="contacto" value="telefono" id="radio-telefono">
+                "Teléfono"
+              </label>
+
+              <label for="radio-whatsapp">
+                <input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp">
+                "Whatsapp"
+              </label>
+
+            </fieldset>
+
+            <fieldset>
+              <legend>¿En que horario le gustaría ser atendido?</legend>
+
+              <select class="hora-contacto">
+                <option>Día</option>
+                <option>Tarde</option>
+                <option>Noche</option>
+
+              </select>
+
+              <label class="checkbox">
+                <input type="checkbox" checked>
+                ¿Le gustaria recibir novedades?
+              </label>
+
+              <input type="submit" value="Enviar formulario" class="enviar">
+
+            </fieldset>
+
+          </form>
+        </div>
+      </div>
+
+    </main>
+
+    <footer>
+      <img src="https://u-static.fotor.com/images/text-to-image/result/PRO-07e259db7dfb48d7b92f8868eadb1ab8.jpg" class="icono"> 
+      
+      <p class="copyright">&copy Copyright JP Solutions - 2023 
+
+      </p>
+  </footer>
+
+  </body>
+</html>

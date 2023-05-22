@@ -1,0 +1,16 @@
+{
+    "name": "Contador",
+    "short_name": "Contador",
+    "icons": [
+      {
+        "src": "flash_lightning_ray_icon_231454.ico",
+        "sizes": "128x128",
+        "type": "icon/ico"
+      }
+    
+    ],
+    "theme_color": "#2196f3",
+    "background_color": "#ffffff",
+    "display": "standalone"
+  }
+  

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Botón Contador</title>
+    
+    <link rel="icon" href="flash_lightning_ray_icon_231454.ico">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="Contador.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  </head>
+
+  
+  <body>
+    <header>
+      <h1>Botón Contador</h1>
+      <nav>
+        <ul>
+          <li><a href="Contador.html">Inicio</a></li>
+          <li><a href="about.html">Acerca</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <!-- <p>Este es un botón de contador:</p> -->
+    <main>
+        <p class="counter">Contador: <span id="contador">0</span></p>
+
+        <div class="botones">
+            <button onclick="incrementarContador()" class="sumar1">+1</button>
+            <button onclick="reiniciarContador()" class="reset">Reiniciar</button>
+
+            <script>
+            let contador = 0;
+
+            function incrementarContador() {
+                contador++;
+                document.getElementById("contador").innerHTML = contador;
+                
+            }
+
+            function reiniciarContador() {
+                contador = 0;
+                document.getElementById("contador").innerHTML = contador
+            }
+
+            </script>
+        </div>
+    
+    </main>
+
+    <footer>
+        <img src="https://u-static.fotor.com/images/text-to-image/result/PRO-07e259db7dfb48d7b92f8868eadb1ab8.jpg" class="icono"> <span class="creditos">Diseñado por: Jorge Jauregui</span>
+        <div class="botones-redes-sociales">
+          <a href="https://github.com/SirKatXd" target="_blank" class="boton-github">Mi perfil de GitHub</a>
+          <a href="https://www.facebook.com/OnlyJPls" target="_blank" class="boton-facebook">Mi perfil de Facebook</a>
+        </div>
+        
+        <p class="copyright">&copy Copyright JP Solutions - 2023 
+
+        </p>
+    </footer>
+
+  </body>
+</html>
