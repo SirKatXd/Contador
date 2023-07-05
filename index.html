@@ -1,12 +1,68 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Boton Contador</title>
+  <meta name="theme-color" content="#9575CD">
+  <link rel="shortcut icon" href="assets/appicon/flash_lightning_ray_icon_231454.png" type="image/x-icon">
+  <link rel="apple-touch-icon" href="assets/appicon/flash_lightning_ray_icon_231454.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/ff9cf2368b.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
+  
+
+  <header>
+    <a class="logo" href="index.html"><img src="assets/appicon/flash_lightning_ray_icon_231454.png" alt="Logo de Personaje de Anime"> <h2 class="Encabezado">Botón Contador</h2></a>
+    <nav>
+      <a href="index.html" class="nav-link">Inicio</a>
+      <a href="about.html" class="nav-link">Sobre Nosotros</a>
+      <a href="contact.html" class="nav-link">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="principal">
+      <p class="counter">Contador: <br> <span id="contador">0</span></p>
+      <div class="intentos">
+        <p>Intentos: </p>
+        <input type="number" name="intentosFb"></input>
+      </div>
+      
+    </div>
+    </div>
+
+    <div class="botones">
+      <button onclick="incrementarContador()" class="sumar1">+1</button>
+      <button onclick="reducirContador()" class="restar1">-1</button>
+      <button onclick="reiniciarContador()" class="reset">Reiniciar</button>
+      <!-- Botón para borrar el texto del campo de entrada -->
+      <button onclick="borrarIntentos()" class="borrar">
+        Borrar 
+        <i class="fa-solid fa-circle-xmark" style="color: red; text-align: justify;"></i>
+      </button>
+      <script src="scripts/counter.js"></script>
+    </div>
     
+  </main>
+
+  <div class="spacio">
+    <br><br><br><br><br><br><br><br><br><br><br>
+  </div>
+
+  <footer>
+    
+    <p class="copyright">
+      <img src="assets/images/footer-icon.jpg" alt="Icono chica Anime">
+      &copy Copyright JP Solutions</p>
+  </footer>
+
 </body>
 </html>
