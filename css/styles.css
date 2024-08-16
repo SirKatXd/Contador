@@ -4,7 +4,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
-  background-image: url(https://i.ibb.co/Mf4MvNL/1170176.jpg);
+  background-image: local(assets/1170176.jpg);
   background-size: cover;
   background-position: initial;
 }
